@@ -4,6 +4,6 @@ def fn_suma(a,b):
 
 if __name__ == "__main__":
     a = input("Ingrese el numero: ")
-    b = input("Ingrese el numero: ")
+    b = input("Ingrese el numero:2 ")
     resultado = fn_suma(int(a),int(b))
     print("La suma es: ", resultado)
