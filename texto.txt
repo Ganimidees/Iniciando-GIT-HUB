@@ -1,0 +1,14 @@
+## Comandos GIT
+
+#git init
+#git add
+#git commit -m "mensake"
+#git status
+#git log
+#git revert "id"
+#git branch
+#git checkout
+#git merge
+
+#Estamos escriendo nuevamente acaaaaaaaa, nuevos cambios, estamos haciendo cistias
+#LOCURA
