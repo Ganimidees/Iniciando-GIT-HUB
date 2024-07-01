@@ -8,11 +8,12 @@ if __name__ == "__main__":
     resultado = fn_suma(int(a),int(b))
     print("La suma es: ", resultado)
 
-
-def multiplicar (a,b):
+def multidiv (a,b):
     total_mult = a * b
-    return total_mult
+    total_div  = a / b
+    return total_mult,total_div
 
 if __name__ == "__main__":
-    resultado = multiplicar(int(a),int(b))
-    print("La suma es: ", resultado)
+    resultado = multidiv(int(a),int(b))
+    print("La multiplicacion es: ", resultado[0])
+    print("La multiplicacion es: ", resultado[1])
